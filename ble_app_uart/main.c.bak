@@ -717,7 +717,11 @@ int main(void)
     advertising_start();
 
     // Enter main loop.
-	printf("Hello world 123 \r\n");
+<<<<<<< HEAD
+	printf("Hello world\r\n");
+=======
+	printf("Hello world\rn");
+>>>>>>> f27a13e213896c3b76c8b689b54dbbf5a934dbda
     for (;;)
     {
         idle_state_handle();
